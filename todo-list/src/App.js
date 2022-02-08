@@ -71,21 +71,18 @@ function App() {
   ]);
 
   return (
-
-    <div className="bg-image">
-      <Header />
-      <div className="app">
-        <div className="todo-list">
-          {todos.map((todo, index) => (
-            <Todo
-              key={index}
-              index={index}
-              todo={todo}
-              completeTodo={completeTodo}
-            />
-          ))}
-          <TodoForm addTodo={addTodo} />
-        </div>
+    <div className="app">
+    <Header />
+      <div className="todo-list">
+        {todos.map((todo, index) => (
+          <Todo
+            key={index}
+            index={index}
+            todo={todo}
+            completeTodo={completeTodo}
+          />
+        ))}
+        <TodoForm addTodo={addTodo} />
       </div>
     </div>
   );
