@@ -1,11 +1,10 @@
-.bg-image {
-    background-image: url("cancunnnnnn.jpg");
-    background-size: cover;
-    height: 100vh;
-}
+
 
 .app {
-    margin: auto;
+  background-image: url("cancunnnnnn.jpg");
+  background-size: cover;
+  height: 100vh;
+  align-content: center;
     
     
   
@@ -36,6 +35,9 @@
 
 .Header {
     text-align: center;
+    font-size: 40px;;
+    background-color: orange;
+    padding: 30px;
 }
 
 .completeButton {
